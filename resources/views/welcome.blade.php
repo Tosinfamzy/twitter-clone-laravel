@@ -65,7 +65,7 @@
     </head>
     <body>
         <div class="flex-center position-ref full-height">
-            
+
 
             <div class="content">
                 <div class="title m-b-md">
@@ -74,12 +74,12 @@
 
                 <div class="links">
                     @auth
-                        <a href="{{ url('/home') }}">Home</a>
+                        <a href="{{ url('/tweets') }}">Home</a>
                     @else
                         <a href="{{ route('login') }}">Login</a>
                         <a href="{{ route('register') }}">Register</a>
                     @endauth
-                
+
                 </div>
             </div>
         </div>
