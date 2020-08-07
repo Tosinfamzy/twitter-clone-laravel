@@ -2,16 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2770d92-2960-4139-b4ab-1084cd979124" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/ProfilesController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/default-avatar.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/default-profile-banner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/_timeline.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/profiles/show.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TweetController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/TweetController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Tweet.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Tweet.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/_friends-list.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/_friends-list.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/_sidebar-links.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/_sidebar-links.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/_tweet.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/_tweet.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/tweets/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/tweets/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -134,13 +135,16 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1fJEMEpZOQ7U5CnaWFn8HpWZJkN" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -163,6 +167,9 @@
       <method v="2" />
     </configuration>
   </component>
+  <component name="ServiceViewManager">
+    <option name="showServicesTree" value="false" />
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -173,19 +180,30 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1595927745435</updated>
-      <workItem from="1595927753246" duration="20955000" />
+      <workItem from="1595927753246" duration="30001000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="367" y="108" width="707" height="793" key="search.everywhere.popup" timestamp="1596024114794">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="1926" y="303" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596613246544">
+      <screen x="1440" y="0" width="1366" height="768" />
     </state>
-    <state x="1788" y="92" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/1440.0.1366.768@1440.0.1366.768" timestamp="1595964908530" />
+    <state x="1926" y="303" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900/1440.0.1366.768@1440.0.1366.768" timestamp="1596613246544" />
+    <state x="1440" y="0" width="659" height="768" key="find.popup" timestamp="1596792470378">
+      <screen x="1440" y="0" width="1366" height="768" />
+    </state>
+    <state x="1440" y="0" width="659" height="768" key="find.popup/0.0.1440.900/1440.0.1366.768@1440.0.1366.768" timestamp="1596792470378" />
+    <state x="1788" y="92" width="670" height="676" key="search.everywhere.popup" timestamp="1596788857023">
+      <screen x="1440" y="0" width="1366" height="768" />
+    </state>
+    <state x="1788" y="92" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/1440.0.1366.768@1440.0.1366.768" timestamp="1596788857023" />
     <state x="367" y="108" width="707" height="793" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1596024114794" />
-    <state x="1788" y="92" width="670" height="676" key="search.everywhere.popup/0.23.1440.877/1440.0.1366.768@1440.0.1366.768" timestamp="1595927953215" />
+    <state x="1788" y="92" width="670" height="676" key="search.everywhere.popup/0.23.1440.877/1440.0.1366.768@1440.0.1366.768" timestamp="1596612068315" />
   </component>
 </project>

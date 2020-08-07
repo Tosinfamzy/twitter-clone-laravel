@@ -1,10 +1,34 @@
 <ul>
-    <li><a href="/" class="font-bold text-lg mb-4 block">Home</a></li>
-    <li><a href="/explore" class="font-bold text-lg mb-4 block"></a>Explore</li>
-    <li><a href="#" class="font-bold text-lg mb-4 block"></a>Notifications</li>
-    <li><a href="#" class="font-bold text-lg mb-4 block"></a>Messages</li>
-    <li><a href="#" class="font-bold text-lg mb-4 block"></a>Bookmarks</li>
-    <li><a href="#" class="font-bold text-lg mb-4 block"></a>List</li>
-    <li><a href="#" class="font-bold text-lg mb-4 block"></a>Profile</li>
-    <li><a href="#" class="font-bold text-lg mb-4 block"></a>More</li>
+    <li><a
+            class="font-bold text-lg mb-4 block"
+            href="{{route('home')}}"
+        >Home</a></li>
+    <li><a
+            class="font-bold text-lg mb-4 block"
+            href="/explore"
+        >Explore</a></li>
+    <li><a
+            class="font-bold text-lg mb-4 block"
+            href="#"
+        >Notifications</a></li>
+    <li><a
+            class="font-bold text-lg mb-4 block"
+            href="#"
+        >Messages</a></li>
+    <li><a
+            class="font-bold text-lg mb-4 block"
+            href="#"
+        >Bookmarks</a></li>
+    <li><a
+            class="font-bold text-lg mb-4 block"
+            href="#"
+        >Lists</a></li>
+    <li><a
+            class="font-bold text-lg mb-4 block"
+            href="{{route('profile', auth()->user())}}"
+        >Profile</a></li>
+    <li><a
+            class="font-bold text-lg block"
+            href="#"
+        >More</a></li>
 </ul>
