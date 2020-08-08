@@ -2,16 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2770d92-2960-4139-b4ab-1084cd979124" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/ProfilesController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/default-avatar.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/default-profile-banner.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/_timeline.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/profiles/show.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Followable.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/FollowsController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/components/follow-button.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/components/master.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ProfilesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ProfilesController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/_friends-list.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/_friends-list.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/_sidebar-links.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/_sidebar-links.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/_tweet.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/_tweet.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/passwords/confirm.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/passwords/confirm.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/passwords/email.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/passwords/email.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/passwords/reset.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/passwords/reset.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/verify.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/verify.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/profiles/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/profiles/show.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/tweets/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/tweets/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
@@ -157,6 +163,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/views/components" />
       <recent name="$PROJECT_DIR$/resources/views/tweets" />
       <recent name="$PROJECT_DIR$/public/images" />
     </key>
@@ -166,9 +173,6 @@
       <TestRunner scope="XML" />
       <method v="2" />
     </configuration>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="showServicesTree" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -180,7 +184,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1595927745435</updated>
-      <workItem from="1595927753246" duration="30001000" />
+      <workItem from="1595927753246" duration="37574000" />
     </task>
     <servers />
   </component>
@@ -191,18 +195,26 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="2011" y="0" key="#com.jetbrains.php.refactoring.pullPush.pullUp.PhpPullUpDialog#1" timestamp="1596822547921">
+      <screen x="1440" y="0" width="1366" height="768" />
+    </state>
+    <state x="2011" y="0" key="#com.jetbrains.php.refactoring.pullPush.pullUp.PhpPullUpDialog#1/0.0.1440.900/1440.0.1366.768@1440.0.1366.768" timestamp="1596822547921" />
+    <state x="1904" y="191" width="438" height="389" key="NewPhpClassDialog" timestamp="1596822438538">
+      <screen x="1440" y="0" width="1366" height="768" />
+    </state>
+    <state x="1904" y="191" width="438" height="389" key="NewPhpClassDialog/0.0.1440.900/1440.0.1366.768@1440.0.1366.768" timestamp="1596822438538" />
     <state x="1926" y="303" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596613246544">
       <screen x="1440" y="0" width="1366" height="768" />
     </state>
     <state x="1926" y="303" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900/1440.0.1366.768@1440.0.1366.768" timestamp="1596613246544" />
-    <state x="1440" y="0" width="659" height="768" key="find.popup" timestamp="1596792470378">
+    <state x="1440" y="0" width="803" height="768" key="find.popup" timestamp="1596821927061">
       <screen x="1440" y="0" width="1366" height="768" />
     </state>
-    <state x="1440" y="0" width="659" height="768" key="find.popup/0.0.1440.900/1440.0.1366.768@1440.0.1366.768" timestamp="1596792470378" />
-    <state x="1788" y="92" width="670" height="676" key="search.everywhere.popup" timestamp="1596788857023">
+    <state x="1440" y="0" width="803" height="768" key="find.popup/0.0.1440.900/1440.0.1366.768@1440.0.1366.768" timestamp="1596821927061" />
+    <state x="1788" y="92" width="670" height="676" key="search.everywhere.popup" timestamp="1596823073359">
       <screen x="1440" y="0" width="1366" height="768" />
     </state>
-    <state x="1788" y="92" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/1440.0.1366.768@1440.0.1366.768" timestamp="1596788857023" />
+    <state x="1788" y="92" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/1440.0.1366.768@1440.0.1366.768" timestamp="1596823073359" />
     <state x="367" y="108" width="707" height="793" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1596024114794" />
     <state x="1788" y="92" width="670" height="676" key="search.everywhere.popup/0.23.1440.877/1440.0.1366.768@1440.0.1366.768" timestamp="1596612068315" />
   </component>
