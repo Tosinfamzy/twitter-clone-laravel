@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2770d92-2960-4139-b4ab-1084cd979124" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Policies/UserPolicy.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/profiles/edit.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TweetController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/TweetController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/_tweet.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/_tweet.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ProfilesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ProfilesController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/_friends-list.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/_friends-list.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/_publish-tweet-panel.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/_publish-tweet-panel.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/components/follow-button.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/follow-button.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/profiles/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/profiles/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,7 +175,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1595927745435</updated>
-      <workItem from="1595927753246" duration="38696000" />
+      <workItem from="1595927753246" duration="45816000" />
     </task>
     <servers />
   </component>
@@ -189,17 +194,19 @@
       <screen x="1440" y="0" width="1366" height="768" />
     </state>
     <state x="1904" y="191" width="438" height="389" key="NewPhpClassDialog/0.0.1440.900/1440.0.1366.768@1440.0.1366.768" timestamp="1596822438538" />
-    <state x="1926" y="303" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596613246544">
-      <screen x="1440" y="0" width="1366" height="768" />
+    <state x="-1649" y="568" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597061342081">
+      <screen x="-2560" y="0" width="2560" height="1440" />
     </state>
+    <state x="-1649" y="568" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900/-2560.0.2560.1440@-2560.0.2560.1440" timestamp="1597061342081" />
     <state x="1926" y="303" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900/1440.0.1366.768@1440.0.1366.768" timestamp="1596613246544" />
     <state x="1440" y="0" width="803" height="768" key="find.popup" timestamp="1596821927061">
       <screen x="1440" y="0" width="1366" height="768" />
     </state>
     <state x="1440" y="0" width="803" height="768" key="find.popup/0.0.1440.900/1440.0.1366.768@1440.0.1366.768" timestamp="1596821927061" />
-    <state x="1788" y="92" width="670" height="676" key="search.everywhere.popup" timestamp="1597007989599">
-      <screen x="1440" y="0" width="1366" height="768" />
+    <state x="-1908" y="173" width="1256" height="1268" key="search.everywhere.popup" timestamp="1597080165298">
+      <screen x="-2560" y="0" width="2560" height="1440" />
     </state>
+    <state x="-1908" y="173" width="1256" height="1268" key="search.everywhere.popup/0.0.1440.900/-2560.0.2560.1440@-2560.0.2560.1440" timestamp="1597080165298" />
     <state x="1788" y="92" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/1440.0.1366.768@1440.0.1366.768" timestamp="1597007989599" />
     <state x="367" y="108" width="707" height="793" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1596024114794" />
     <state x="1788" y="92" width="670" height="676" key="search.everywhere.popup/0.23.1440.877/1440.0.1366.768@1440.0.1366.768" timestamp="1596612068315" />
