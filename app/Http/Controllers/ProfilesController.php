@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\User;
 use Illuminate\Http\Request;
+use Illuminate\Validation\Rule;
 
 class ProfilesController extends Controller
 {
@@ -17,6 +18,19 @@ class ProfilesController extends Controller
     {
         $this->authorize('edit', $user);
         return view('profiles.edit', compact('user'));
+    }
+    public function update(User $user)
+    {
+//        dd(request()->all());
+        $attributes = request()->validate([
+            'username'=>['string', 'required', 'max:255','alpha_dash', Rule::unique('users')->ignore($user)],
+            'name'=>['string', 'required', 'max:255'],
+            'email'=>['string', 'required', 'max:255', 'email', Rule::unique('users')->ignore($user)],
+            'password'=>['string', 'required', 'min:8', 'max:255','confirmed']
+        ]);
+
+        $user->update($attributes);
+        return redirect('/profiles/'.$user->username);
     }
 
 }

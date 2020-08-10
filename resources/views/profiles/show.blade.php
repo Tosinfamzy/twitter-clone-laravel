@@ -13,7 +13,7 @@
         </div>
         <div class="flex">
             @can('edit',$user)
-            <a href="/profiles/{{$user->name}}/edit" class="rounded-full border border-gray-100 py-2 px-2 text-black text-xs">Edit Profile</a>
+            <a href="/profiles/{{$user->username}}/edit" class="rounded-full border border-gray-100 py-2 px-2 text-black text-xs">Edit Profile</a>
             @endcan
             <x-follow-button :user="$user"></x-follow-button>
         </div>
