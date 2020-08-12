@@ -23,16 +23,18 @@ trait Followable
 
     public function following(User $user)
     {
-    return $this->follows()->where('following_user_id', $user->id)->exists();
+        return $this->follows()->where('following_user_id', $user->id)->exists();
     }
 
     public function toggleFollow(User $user)
     {
-        if ($this->following($user)){
-            return $this->unfollow($user);
-        }else{
-            return $this->follow($user);
-        }
+//        if ($this->following($user)){
+//            return $this->unfollow($user);
+//        }else{
+//            return $this->follow($user);
+//        }
+        $this->follows()->toggle($user);
+
     }
 
 }

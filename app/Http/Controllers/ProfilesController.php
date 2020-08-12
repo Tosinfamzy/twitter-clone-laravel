@@ -21,7 +21,7 @@ class ProfilesController extends Controller
     }
     public function update(User $user)
     {
-//        dd(request()->all());
+        $this->authorize('edit', $user);
         $attributes = request()->validate([
             'username'=>['string', 'required', 'max:255','alpha_dash', Rule::unique('users')->ignore($user)],
             'name'=>['string', 'required', 'max:255'],
@@ -29,7 +29,9 @@ class ProfilesController extends Controller
             'email'=>['string', 'required', 'max:255', 'email', Rule::unique('users')->ignore($user)],
             'password'=>['string', 'required', 'min:8', 'max:255','confirmed']
         ]);
-        $attributes['avatar']=request('avatar')->store('avatars');
+        if (request('avatar')) {
+            $attributes['avatar'] = request('avatar')->store('avatars');
+        }
         $user->update($attributes);
         return redirect('/profiles/'.$user->username);
     }

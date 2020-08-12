@@ -40,13 +40,18 @@ class User extends Authenticatable
     public function getAvatarAttribute($value)
     {
 //        return "https://i.pravatar.cc/150?u=". $this->email;
-        return asset($value);
+        return asset($value ?: '/images/default-avatar.jpeg');
     }
 
     public function timeline(){
         $ids = $this->follows()->pluck('id');
         $ids->push($this->id);
         return Tweet::whereIn('user_id', $ids)->latest()->get();
+    }
+
+    public function setPasswordAttribute($value)
+    {
+        $this->attributes['password'] = bcrypt($value);
     }
 
     public function tweets()
