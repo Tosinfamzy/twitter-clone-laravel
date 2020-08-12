@@ -16,7 +16,7 @@ class User extends Authenticatable
      * @var array
      */
     protected $fillable = [
-        'name', 'email', 'password', 'username'
+        'name', 'email', 'password', 'username', 'avatar'
     ];
 
     /**
@@ -37,9 +37,10 @@ class User extends Authenticatable
         'email_verified_at' => 'datetime',
     ];
 
-    public function getAvatarAttribute()
+    public function getAvatarAttribute($value)
     {
-        return "https://i.pravatar.cc/150?u=". $this->email;
+//        return "https://i.pravatar.cc/150?u=". $this->email;
+        return asset($value);
     }
 
     public function timeline(){
