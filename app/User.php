@@ -46,7 +46,7 @@ class User extends Authenticatable
     public function timeline(){
         $ids = $this->follows()->pluck('id');
         $ids->push($this->id);
-        return Tweet::whereIn('user_id', $ids)->latest()->get();
+        return Tweet::whereIn('user_id', $ids)->latest()->paginate(10);
     }
 
     public function setPasswordAttribute($value)
